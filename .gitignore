@@ -1,4 +1,12 @@
-airootfs/
+# Block the heavy system folders
+airootfs/var/
+airootfs/usr/lib/
+airootfs/usr/share/
 work/
 out/
 *.iso
+
+# But ALLOW your custom funky folder
+!airootfs/usr/local/bin/funky/
+!airootfs/etc/systemd/system/funky-vault.service
+!airootfs/etc/skel/.config/hypr/
