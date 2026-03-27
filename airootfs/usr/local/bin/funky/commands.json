@@ -1,0 +1,11 @@
+{
+  "modes": {
+    "ghost": "copytoram=y",
+    "stealth": "disable_network",
+    "vault": "mount_persistence"
+  },
+  "security": {
+    "eject": "unmount_and_reboot",
+    "wipe": "ram_shred"
+  }
+}
