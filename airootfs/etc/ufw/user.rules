@@ -1,0 +1,4 @@
+# Force add this to our setup
+ufw default deny incoming
+ufw default allow outgoing
+ufw enable
