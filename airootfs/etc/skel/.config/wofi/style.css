@@ -1,0 +1,18 @@
+window {
+    margin: 5px;
+    border: 5px solid #ffff00; /* Signature Yellow */
+    background-color: #000000;
+    font-family: "JetBrains Mono", monospace;
+}
+
+#input {
+    margin: 5px;
+    border: 2px solid #ff0000; /* Red Accent */
+    color: #ffffff;
+    background-color: #111111;
+}
+
+#entry:selected {
+    background-color: #ffff00;
+    color: #000000;
+}
