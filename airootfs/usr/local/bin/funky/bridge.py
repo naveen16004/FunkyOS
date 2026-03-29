@@ -7,7 +7,8 @@ COMMAND_MAP = {
     "stealth": "/usr/local/bin/funky/stealth.sh",
     "scout": "/usr/local/bin/funky/scout.sh",
     "vault": "/usr/local/bin/funky/mount_vault.sh",
-    "eject": "/usr/local/bin/funky/actions.py" # We'll trigger self_destruct here
+    "eject": "/usr/local/bin/funky/actions.py"
+    "sandbox": "/usr/local/bin/funky/sandbox.sh" # We'll trigger self_destruct here
 }
 
 def execute_action(cmd_key):
