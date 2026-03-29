@@ -1,0 +1,7 @@
+[user]
+	name = FunkyGhost
+	email = ghost@funkyos.local
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
