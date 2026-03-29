@@ -1,6 +1,6 @@
 # 🌀 FunkyOS (v1.0)
 > **The Hardware-Agnostic "Pocket" Operating System.**
-> Created with 💜 by Naveen
+> Creating with 💜 by Naveen
 
 FunkyOS is a custom, Arch-based live environment designed to run from a USB drive on any x86_64 hardware. It features a high-performance **Hyprland** tiled window manager, a **Neobrutalist** UI aesthetic, and an integrated **AI Voice Bridge** for hands-free workflow.
 
