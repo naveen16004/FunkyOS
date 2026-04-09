@@ -1,0 +1,12 @@
+[Unit]
+Description=FunkyOS Ghost Mode Initialization
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/funky/host_ghost.sh
+ExecStart=/usr/local/bin/funky/ghost_mode.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
