@@ -1,0 +1,15 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "cpu", "memory", "battery"],
+    "clock": {
+        "format": "{:%H:%M} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{member_calendar}</small></tt>"
+    },
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-ethernet": "Connected ",
+        "format-disconnected": "Offline ⚠"
+    }
+}

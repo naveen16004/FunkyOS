@@ -19,3 +19,26 @@ sddm
 qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-svg
+# Graphics Drivers (Intel, AMD, Generic)
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+mesa
+vulkan-intel
+vulkan-radeon
+
+# Essential Networking (Broadcom, Realtek, etc.)
+networkmanager
+linux-firmware
+iw
+wireless_tools
+wpa_supplicant
+ttf-jetbrains-mono-nerd
+noto-fonts-emoji
+papirus-icon-theme
+lxappearance
+firefox-developer-edition
+dolphin
+fastfetch
+btop
