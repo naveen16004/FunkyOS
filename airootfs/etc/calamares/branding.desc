@@ -1,0 +1,23 @@
+---
+componentName:  funky
+
+strings:
+    productName:         FunkyOS
+    shortProductName:    Funky
+    productVersion:      2.0-Ghost
+    shortProductVersion: 2.0
+    versionedName:       FunkyOS 2.0 "Ghost"
+    shortVersionedName:  Funky 2.0
+    bootloaderEntryName: FunkyOS
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#111111"
+   sidebarText:          "#00ff99"
+   sidebarTextSelect:    "#222222"

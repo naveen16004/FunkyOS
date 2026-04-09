@@ -1,15 +1,47 @@
-archlinux-keyring
-base
-linux
-linux-firmware
-sudo
-nano
-networkmanager
+# --- UNIVERSAL HARDWARE & BOOT ---
+intel-ucode
+amd-ucode
+cachyos-keyring
+cachyos-mirrorlist
 grub
 syslinux
+efibootmgr
 edk2-shell
 memtest86+
 memtest86+-efi
+
+# --- UNIVERSAL DRIVERS (INTEL/AMD/NVIDIA) ---
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-nouveau
+mesa
+vulkan-intel
+vulkan-radeon
+linux-firmware
+linux-firmware-marvell
+linux-firmware-qlogic
+broadcom-wl
+
+# --- UNIVERSAL STORAGE & NETWORK ---
+btrfs-progs
+xfsprogs
+f2fs-tools
+dosfstools
+ntfs-3g
+networkmanager
+bluez
+bluez-utils
+dnscrypt-proxy
+
+# --- CORE SYSTEM ---
+base
+linux
+sudo
+nano
+archlinux-keyring
+
+# --- GHOST UI (HYPRLAND & RICE) ---
 hyprland
 waybar
 hyprpaper
@@ -19,26 +51,19 @@ sddm
 qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-svg
-# Graphics Drivers (Intel, AMD, Generic)
-xf86-video-intel
-xf86-video-amdgpu
-xf86-video-ati
-xf86-video-nouveau
-mesa
-vulkan-intel
-vulkan-radeon
-dnscrypt-proxy
-# Essential Networking (Broadcom, Realtek, etc.)
-networkmanager
-linux-firmware
-iw
-wireless_tools
-wpa_supplicant
 ttf-jetbrains-mono-nerd
 noto-fonts-emoji
 papirus-icon-theme
 lxappearance
+
+# --- GHOST APPS & FETCH ---
 firefox-developer-edition
-dolphin
 fastfetch
+dolphin
 btop
+
+# --- UNIVERSAL INSTALLER (CALAMARES) ---
+cachyos-calamares
+ckbcomp
+upower
+solid
