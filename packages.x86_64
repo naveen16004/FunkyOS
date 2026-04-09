@@ -27,7 +27,7 @@ xf86-video-nouveau
 mesa
 vulkan-intel
 vulkan-radeon
-
+dnscrypt-proxy
 # Essential Networking (Broadcom, Realtek, etc.)
 networkmanager
 linux-firmware
