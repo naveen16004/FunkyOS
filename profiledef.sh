@@ -1,6 +1,6 @@
 iso_name="FunkyOS"
 iso_label="FUNKY_GHOST"
-iso_publisher="FunkyOS Dev <https://github.com/your-username>"
+iso_publisher="FunkyOS Dev <https://github.com/naveen16004>"
 iso_application="FunkyOS Universal Ghost System"
 install_dir="arch"
 buildmodes=('iso')
