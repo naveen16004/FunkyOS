@@ -36,6 +36,7 @@ sudo rm -rf work/
 # Generate the ISO
 ```bash
 sudo ./mkiso.sh
+  ```
 
 🗄️ System SpecsCategoryComponentBaseArch LinuxKernelCachyOS / ZenWMHyprland (Wayland)ShellZsh / FishBarCustom WaybarInstallerBranded Calamares
 
