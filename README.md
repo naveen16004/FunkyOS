@@ -22,16 +22,19 @@ Clean Sidebar: Fully portable configurations that leave no trace on host machine
 1. Trusted Keyring Setup
 Before building, you must authorize the repository keys on your host machine to avoid signature errors:
 
-Bash
+```bash
 sudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key F3B607488DB35A47
+```
 
 2. Execution
-Bash
+```Bash
 # Clean previous build artifacts
 sudo rm -rf work/
+```
 
 # Generate the ISO
+```bash
 sudo ./mkiso.sh
 
 🗄️ System SpecsCategoryComponentBaseArch LinuxKernelCachyOS / ZenWMHyprland (Wayland)ShellZsh / FishBarCustom WaybarInstallerBranded Calamares
