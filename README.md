@@ -1,5 +1,66 @@
-🛸 FunkyOS 2.0: Ghost Edition💠 Project VisionFunkyOS isn't just another Arch rice. It is a Universal Live Environment engineered to boot on almost any hardware while maintaining a secure, development-ready workspace. Whether you're on a high-end Ryzen workstation or a library laptop, FunkyOS delivers a consistent, high-performance experience.🚀 Technical Highlights🏎️ Optimized PerformanceCachyOS Repositories: Leverages optimized binaries and the linux-cachyos kernel for superior throughput and reduced latency.Universal Driver Stack: Out-of-the-box support for Intel, AMD, and NVIDIA (Nouveau) GPUs, plus a broad array of Wi-Fi firmware.👻 Ghost SecurityEncrypted DNS: dnscrypt-proxy enabled by default to prevent ISP tracking.Hardened Browser: Firefox Developer Edition pre-configured with telemetry-blocking user.js.Zero-Footprint: Designed to run entirely in RAM (copytoram=n support) for maximum privacy.🎨 System ArchitectureComponentChoiceDescriptionWindow ManagerHyprlandDynamic tiling Wayland compositor.ShellZshConfigured with custom Ghost-theme prompt.TerminalKittyGPU-accelerated for ultra-low latency.RunnerWofiMinimalist launcher for Wayland.BarWaybarHighly customized status bar with "Ghost" icons.🛠️ Build Your Own Ghost1. Initialize the KeyringTo pull from the optimized CachyOS repositories, you must trust the maintainer's PGP key:Bashsudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
+🛸 FunkyOS 2.0: Ghost Edition
+
+🔭 Vision & Architecture
+FunkyOS is designed as a "Live-First" environment. It solves the common "Switch Root" and "Label Mismatch" issues found in custom ISOs, creating a seamless boot experience across Intel and AMD architectures.
+
+🏎️ Performance Engine
+CachyOS Core: Integrated CachyOS repositories for v3/v4 x86_64 optimizations.
+
+Universal Driver Stack: Pre-loaded firmware for Broadcom, Realtek, and major GPU vendors.
+
+Zen-Kernel Speed: Optimized task scheduling for low-latency desktop use.
+
+👻 Ghost Features
+Hardened Firefox: Pre-baked user.js for zero-telemetry browsing.
+
+DNSCrypt: Automatic DNS encryption out of the box.
+
+Clean Sidebar: Fully portable configurations that leave no trace on host machines.
+
+To make a README truly stunning, you need a high-impact header, clear sections, and placeholders for your screenshots that highlight the "rice."
+
+Since I can't "see" your actual screen to take the shots, I’ve included image placeholders where you should link your own screenshots once you upload them to your GitHub repository (usually in a folder named /assets or /screenshots).
+
+🛸 FunkyOS 2.0: Ghost Edition
+📸 Gallery
+🔭 Vision & Architecture
+FunkyOS is designed as a "Live-First" environment. It solves the common "Switch Root" and "Label Mismatch" issues found in custom ISOs, creating a seamless boot experience across Intel and AMD architectures.
+
+🏎️ Performance Engine
+CachyOS Core: Integrated CachyOS repositories for v3/v4 x86_64 optimizations.
+
+Universal Driver Stack: Pre-loaded firmware for Broadcom, Realtek, and major GPU vendors.
+
+Zen-Kernel Speed: Optimized task scheduling for low-latency desktop use.
+
+👻 Ghost Features
+Hardened Firefox: Pre-baked user.js for zero-telemetry browsing.
+
+DNSCrypt: Automatic DNS encryption out of the box.
+
+Clean Sidebar: Fully portable configurations that leave no trace on host machines.
+
+🛠️ Build Information
+1. Trusted Keyring Setup
+Before building, you must authorize the repository keys on your host machine to avoid signature errors:
+
+Bash
+sudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key F3B607488DB35A47
-2. Compile the ISOClear previous artifacts and execute the build script:Bashsudo rm -rf work/
-./mkiso.sh
-📂 Configuration Mappingairootfs/etc/skel/.config/hypr: The soul of the UI.packages.x86_64: The universal package manifest.profiledef.sh: Core identity and label settings.🤝 Community & CreditsSpecial thanks to the CachyOS team for the optimized repository infrastructure and the ArchISO developers for the foundation.
+
+2. Execution
+Bash
+# Clean previous build artifacts
+sudo rm -rf work/
+
+# Generate the ISO
+sudo ./mkiso.sh
+
+🗄️ System SpecsCategoryComponentBaseArch LinuxKernelCachyOS / ZenWMHyprland (Wayland)ShellZsh / FishBarCustom WaybarInstallerBranded Calamares
+
+🤝 Credits
+CachyOS Team for the optimized infrastructure.
+
+ArchISO for the build framework.
+
+Hyprland Community for the compositor.
