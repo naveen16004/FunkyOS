@@ -1,46 +1,24 @@
-🛸 FunkyOS 2.0: Ghost Edition
+#🛸 FunkyOS: Ghost Edition
 
-🔭 Vision & Architecture
+
+#🔭 Vision & Architecture
 FunkyOS is designed as a "Live-First" environment. It solves the common "Switch Root" and "Label Mismatch" issues found in custom ISOs, creating a seamless boot experience across Intel and AMD architectures.
 
-🏎️ Performance Engine
+#🏎️ Performance Engine
 CachyOS Core: Integrated CachyOS repositories for v3/v4 x86_64 optimizations.
 
 Universal Driver Stack: Pre-loaded firmware for Broadcom, Realtek, and major GPU vendors.
 
 Zen-Kernel Speed: Optimized task scheduling for low-latency desktop use.
 
-👻 Ghost Features
+#👻 Ghost Features
 Hardened Firefox: Pre-baked user.js for zero-telemetry browsing.
 
 DNSCrypt: Automatic DNS encryption out of the box.
 
 Clean Sidebar: Fully portable configurations that leave no trace on host machines.
 
-To make a README truly stunning, you need a high-impact header, clear sections, and placeholders for your screenshots that highlight the "rice."
-
-Since I can't "see" your actual screen to take the shots, I’ve included image placeholders where you should link your own screenshots once you upload them to your GitHub repository (usually in a folder named /assets or /screenshots).
-
-🛸 FunkyOS 2.0: Ghost Edition
-📸 Gallery
-🔭 Vision & Architecture
-FunkyOS is designed as a "Live-First" environment. It solves the common "Switch Root" and "Label Mismatch" issues found in custom ISOs, creating a seamless boot experience across Intel and AMD architectures.
-
-🏎️ Performance Engine
-CachyOS Core: Integrated CachyOS repositories for v3/v4 x86_64 optimizations.
-
-Universal Driver Stack: Pre-loaded firmware for Broadcom, Realtek, and major GPU vendors.
-
-Zen-Kernel Speed: Optimized task scheduling for low-latency desktop use.
-
-👻 Ghost Features
-Hardened Firefox: Pre-baked user.js for zero-telemetry browsing.
-
-DNSCrypt: Automatic DNS encryption out of the box.
-
-Clean Sidebar: Fully portable configurations that leave no trace on host machines.
-
-🛠️ Build Information
+#🛠️ Build Information
 1. Trusted Keyring Setup
 Before building, you must authorize the repository keys on your host machine to avoid signature errors:
 
