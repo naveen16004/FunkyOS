@@ -73,7 +73,7 @@ To get started with FunkyOS, follow these simple steps:
 1. Download the latest ISO file from the [releases page](https://github.com/funkyos/ghost/releases).
 2. Burn the ISO to a USB drive or install it on a virtual machine.
 3. Boot from the USB drive or virtual machine and enjoy your "Ghost" Linux environment.
-  ```
+
 
 🗄️ System SpecsCategoryComponentBaseArch LinuxKernelCachyOS / ZenWMHyprland (Wayland)ShellZsh / FishBarCustom WaybarInstallerBranded Calamares
 
